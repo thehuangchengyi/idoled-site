@@ -76,11 +76,8 @@ a:hover {
   width: 28px;
   height: 28px;
   border-radius: 8px;
-  background:
-    radial-gradient(circle at 30% 30%, var(--yellow), transparent 26%),
-    radial-gradient(circle at 72% 34%, var(--pink), transparent 24%),
-    linear-gradient(135deg, var(--blue), var(--green));
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  display: block;
+  object-fit: cover;
 }
 
 .site-nav {
@@ -322,4 +319,3 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
-
